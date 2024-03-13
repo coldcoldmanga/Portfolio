@@ -2,26 +2,41 @@ import React from 'react';
 import { useState } from 'react';
 import { TypeAnimation }  from 'react-type-animation';
 import Profile from './profile.jsx';
+import Button from './button.jsx';
+import { render } from '@testing-library/react';
 
 const App = () => {
 
     const [activePage, setPage] = useState(null);
-
-    const handlePage = (page) => {
-        setPage(page);
-    };
+    
+    const renderPage = () => {
+        switch(activePage){
+            case 'Profile':
+                return <Profile/>;
+            case 'Skill':
+                return null;
+            case 'Project':
+                return null;
+            default:
+                return null;
+        }
+    }
 
     return (
         <>
         <div className='container'>
-            <div className='screen'>
-                
+            <div className='button'>
+            <Button btn={"Profile"} setPage={setPage}/>
+            <Button btn={"Skill"} setPage={setPage}/>
+            <Button btn={"Project"} setPage={setPage}/>    
             </div>
+
+            <div className='screen'>
             <div className='title'>
             <div><p className='intro'>// HI, I'M MELVIN KWAN, A...</p></div>
+            
         
-            <div>
-                <h1 className='role'>
+            <div className='role'>
                     <span className='fixed-curly'>{"{'  "}</span>
                     <TypeAnimation
                     sequence={[
@@ -38,18 +53,16 @@ const App = () => {
                     style={{ fontSize: '4em', display: 'flex', justifyContent:'center', alignContent:'center', marginTop:'30px', color:'black'}}
                 />
                     <span className='fixed-curly'>{"  '}"}</span>
-                </h1>
             </div>
 
             </div>
 
-            <div className='button'>
-                    <button className='profile-btn' onClick={() => handlePage('Profile')}>Profile</button>
-                    <button className='skillset-btn'onClick={() => handlePage('Skills')}>Skills</button>
-                    <button className='project-btn' onClick={() => handlePage('Project')}>Project</button>
+            <div className='content'>
+                {renderPage()}
             </div>
 
-            
+            </div>
+           
         </div>
 
         <footer className='footer'>©2024 - Melvin Kwan Yii Syn</footer>

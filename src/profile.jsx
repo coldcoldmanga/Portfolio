@@ -3,16 +3,35 @@ import './Content.css';
 
 const Profile = () => {
 
+    // const closeTerminal
+
     return (
         <>
-        <h2 className='profile-header'>Introduction</h2>
-        <div className='profile-content'>
-        Greetings! I'm Melvin Kwan Yii Syn, a passionate individual hailing from the scenic landscapes of Sabah, Malaysia. Armed with a Bachelor's Degree in Security Technology from Multimedia University Malacca Campus, I embark on a journey fueled by innovation and dedication.
+        <div className="terminal">
+        <div id="bar">
+                <div id="red"></div>
+                <div id="yellow"></div>
+                <div id="green"></div>
+            
+        </div>
+        <div id="screen">
+        
+        <p class="font">root@10.0.0.1:~$ cat Introduction.txt</p>
+        <p className='font profile-intro'>Introduction</p>
+        <p class="font profile-content">Hey there! I'm Melvin Kwan Yii Syn, coming at you from the beautiful shores of Sabah, Malaysia. I've got a Bachelor's Degree in Security Technology from Multimedia University Malacca Campus, and I'm all about diving deep into the world of tech.</p>
+        <p class="font profile-content">My toolbox is filled with all sorts of goodies—I'm fluent in HTML, CSS, JavaScript, PHP, MySQL, C++, Java, and Python. Whether it's crafting sleek websites or diving into complex coding challenges, I'm all in.</p>
 
-My skill set encompasses a diverse range of languages and technologies, including HTML, CSS, JavaScript, PHP, MySQL, C++, Java, and Python. With a penchant for problem-solving and a commitment to excellence, I aim to leverage my expertise to create impactful solutions in the realm of technology.
+        </div>
         </div>
         </>
     );
 }
 
 export default Profile;
+
+ /* <h2 className='profile-header'>Introduction</h2>
+        <div className='profile-content'>
+        Greetings! I'm Melvin Kwan Yii Syn, a passionate individual hailing from the scenic landscapes of Sabah, Malaysia. Armed with a Bachelor's Degree in Security Technology from Multimedia University Malacca Campus, I embark on a journey fueled by innovation and dedication.
+
+My skill set encompasses a diverse range of languages and technologies, including HTML, CSS, JavaScript, PHP, MySQL, C++, Java, and Python. With a penchant for problem-solving and a commitment to excellence, I aim to leverage my expertise to create impactful solutions in the realm of technology.
+        </div> */
