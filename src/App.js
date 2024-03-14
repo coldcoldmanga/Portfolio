@@ -2,40 +2,38 @@ import React from 'react';
 import { useState } from 'react';
 import { TypeAnimation }  from 'react-type-animation';
 import Profile from './profile.jsx';
+import Skill from './skill.jsx';
+import Project from './project.jsx';
 import Button from './button.jsx';
+import Contact from './contact.jsx';
 import { render } from '@testing-library/react';
 
 const App = () => {
 
     const [activePage, setPage] = useState(null);
-    
-    const renderPage = () => {
-        switch(activePage){
-            case 'Profile':
-                return <Profile/>;
-            case 'Skill':
-                return null;
-            case 'Project':
-                return null;
-            default:
-                return null;
-        }
-    }
 
     return (
         <>
+        <Contact/>
         <div className='container'>
+
             <div className='button'>
-            <Button btn={"Profile"} setPage={setPage}/>
-            <Button btn={"Skill"} setPage={setPage}/>
-            <Button btn={"Project"} setPage={setPage}/>    
+                <Button btn={"Profile"} setPage={setPage}/>
+                <Button btn={"Skill"} setPage={setPage}/>
+                <Button btn={"Project"} setPage={setPage}/>    
+            </div>
+
+            <div className='content'>
+                {activePage === "Profile" && <Profile setPage={setPage}/>}
+                {activePage === "Skill" && <Skill setPage={setPage}/>}
+                {activePage === "Project" && <Project setPage={setPage}/>}      
             </div>
 
             <div className='screen'>
             <div className='title'>
+                
             <div><p className='intro'>// HI, I'M MELVIN KWAN, A...</p></div>
             
-        
             <div className='role'>
                     <span className='fixed-curly'>{"{'  "}</span>
                     <TypeAnimation
@@ -55,10 +53,6 @@ const App = () => {
                     <span className='fixed-curly'>{"  '}"}</span>
             </div>
 
-            </div>
-
-            <div className='content'>
-                {renderPage()}
             </div>
 
             </div>

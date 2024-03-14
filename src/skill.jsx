@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import './Content.css';
 
-const Profile = (props) => {
+const Skill = (props) => {
 
     const [isMaximized, setMaximized] = useState(false);
 
@@ -18,6 +18,7 @@ const Profile = (props) => {
     const barStyle = isMaximized? "bar-maximized" : "bar";
     const screenStyle = isMaximized? "screen-maximized" : "screen";
 
+
     return (
         <>
         <div className={terminalStyle}>
@@ -31,9 +32,8 @@ const Profile = (props) => {
         
         <p class="font">root@10.0.0.1:~$ cat Introduction.txt</p>
         <p className='font profile-intro'>Introduction</p>
-        <p class="font profile-content">Greetings! My name is Melvin Kwan Yii Syn, from the Land Below the Wind, Sabah, Malaysia. Im currently pursuing my second year of study of B.C.S (hons) in Security Technology at Multimedia University Malacca Campus. With a passion for technology and a knack for problem solving, Im always ready to take on new challenges.</p>
-        <p class="font profile-content">I am gear up with a diverse skillset that includes HTML, CSS, JavaScript, PHP and MySQL. Besides, I can also work in backend environment and I have sufficient knowledge in programming language such as Java, C++ and Python. For version control, I also have experience in using Git . Moreover, I'm confident in finding solution independently with my critical thinking ability.
-</p>
+        <p class="font profile-content">Hey there! I'm Melvin Kwan Yii Syn, coming at you from the beautiful shores of Sabah, Malaysia. I've got a Bachelor's Degree in Security Technology from Multimedia University Malacca Campus, and I'm all about diving deep into the world of tech.</p>
+        <p class="font profile-content">My toolbox is filled with all sorts of goodies—I'm fluent in HTML, CSS, JavaScript, PHP, MySQL, C++, Java, and Python. Whether it's crafting sleek websites or diving into complex coding challenges, I'm all in.</p>
 
         </div>
         </div>
@@ -41,7 +41,7 @@ const Profile = (props) => {
     );
 }
 
-export default Profile;
+export default Skill;
 
  /* <h2 className='profile-header'>Introduction</h2>
         <div className='profile-content'>
