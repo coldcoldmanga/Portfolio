@@ -30,7 +30,7 @@ const Profile = (props) => {
         <div id={screenStyle}>
         
         <p class="font">root@10.0.0.1:~$ cat Introduction.txt</p>
-        <p className='font profile-intro'>Introduction</p>
+        <p class="font profile-intro">Introduction</p>
         <p class="font profile-content">Greetings! My name is Melvin Kwan Yii Syn, from the Land Below the Wind, Sabah, Malaysia. Im currently pursuing my second year of study of B.C.S (hons) in Security Technology at Multimedia University Malacca Campus. With a passion for technology and a knack for problem solving, Im always ready to take on new challenges.</p>
         <p class="font profile-content">I am gear up with a diverse skillset that includes HTML, CSS, JavaScript, PHP and MySQL. Besides, I can also work in backend environment and I have sufficient knowledge in programming language such as Java, C++ and Python. For version control, I also have experience in using Git . Moreover, I'm confident in finding solution independently with my critical thinking ability.
 </p>

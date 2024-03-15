@@ -29,8 +29,10 @@ const Project = (props) => {
         </div>
         <div id={screenStyle}>
         
-        <p class="font">root@10.0.0.1:~$ cat Introduction.txt</p>
-        <a href="http://youtube.com">Youtube</a>
+        <p class="font">root@10.0.0.1:~$ cat Project.txt</p>
+        <p class="font profile-intro">Project</p>
+        <a href="https://github.com/coldcoldmanga/LibraryManagement" target='blank'><h3 class="font profile-content">Library Management System</h3></a>
+
         </div>
         </div>
         </>

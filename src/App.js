@@ -6,7 +6,6 @@ import Skill from './skill.jsx';
 import Project from './project.jsx';
 import Button from './button.jsx';
 import Contact from './contact.jsx';
-import { render } from '@testing-library/react';
 
 const App = () => {
 
