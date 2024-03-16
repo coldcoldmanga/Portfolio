@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body{
-    background-color: #F9F7CF;
+    background-color: #FEC7B4;
     /* overflow: hidden; */
 }
 
@@ -34,7 +34,7 @@ body{
 
 .screen{
     position: relative;
-    bottom: 10%;
+    bottom: 11%;
     height: 70vh;
     width:99vh;
     z-index: -1;
@@ -126,6 +126,7 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   color: black;
 }
 
 .folder{
