@@ -12,6 +12,7 @@
     cursor: pointer;
     transition: all 0.3s;
     margin-top: 10px;
+    z-index: 1;
   }
   .folderContainer {
     width: 40px;
