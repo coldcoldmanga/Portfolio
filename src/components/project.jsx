@@ -30,8 +30,12 @@ const Project = (props) => {
         <div id={screenStyle}>
         
         <p class="font">root@10.0.0.1:~$ cat Project.txt</p>
-        <p class="font profile-intro">Project</p>
-        <a href="https://github.com/coldcoldmanga/LibraryManagement" target='blank'><h3 class="font profile-content">Library Management System</h3></a>
+        <p class="font project-intro">Project</p>
+        <ul>
+            <li className='font project-content'><a href="https://github.com/coldcoldmanga/LibraryManagement" target='blank'><h3 class="font">Library Management System: PHP MySQL BootStrap 5</h3></a></li>
+            <li className='font project-content'><a href="" target='blank'><h3 class="font">Portfolio: React JS</h3></a></li>
+        </ul>
+       
 
         </div>
         </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 import { TypeAnimation }  from 'react-type-animation';
-import Profile from './profile.jsx';
-import Skill from './skill.jsx';
-import Project from './project.jsx';
-import Button from './button.jsx';
-import Contact from './contact.jsx';
+import Profile from './components/profile.jsx';
+import Skill from './components/skill.jsx';
+import Project from './components/project.jsx';
+import Button from './components/button.jsx';
+import Contact from './components/contact.jsx';
 
 const App = () => {
 

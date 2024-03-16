@@ -31,10 +31,10 @@ const Skill = (props) => {
         <div id={screenStyle}>
         
         <p class="font">root@10.0.0.1:~$ cat Skill.txt</p>
-        <p className='font profile-intro'>Skills</p>
-        <p class="font profile-content">As an adaptable developer, I have a decent level of experience in web technologies such as PHP, MySQL, JavaScript, HTML, and CSS. I'm now learning React.js to increase my level of knowledge in the Frontend Development.</p>
-        <p class="font profile-content"> I am capable to code with C++, Java, and new to Python programming. I am familiar with version control systems, such as GitHub and Git, to a decent degree.</p>
-        <p class="font profile-content">I actively broaden my knowledge and skills in a variety of software development disciplines since I have a strong desire to learn new things constantly. Currently, I am pursuing my CCNA certification and I just finished CCNA ITN 1 from my last semester.</p>
+        <p className='font skill-intro'>Skills</p>
+        <p class="font skill-content">As an adaptable developer, I have a decent level of experience in web technologies such as PHP, MySQL, JavaScript, HTML, and CSS. I'm now learning React.js to increase my level of knowledge in the Frontend Development.</p>
+        <p class="font skill-content"> I am capable to code with C++, Java, and new to Python programming. I am familiar with version control systems, such as GitHub and Git, to a decent degree.</p>
+        <p class="font skill-content">I actively broaden my knowledge and skills in a variety of software development disciplines since I have a strong desire to learn new things constantly. Currently, I am pursuing my CCNA certification and I just finished CCNA ITN 1 from my last semester.</p>
 
 
         </div>

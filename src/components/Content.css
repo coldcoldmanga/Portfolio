@@ -78,7 +78,7 @@
 }
 #screen {
     background-color: #33485E;
-    width: 800px;
+    width: 799px;
     height: 500px;
     margin: 0 auto;
     padding: 1px;
@@ -119,3 +119,28 @@
     text-indent: 50px;
 }
 
+.skill-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+}
+
+.skill-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-indent: 50px;
+}
+
+.project-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+}
+
+.project-content{
+    
+}
