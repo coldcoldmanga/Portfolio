@@ -17,6 +17,7 @@
     border: 2px solid black;
     top: 60%;
     left: 45%;
+    z-index: 5;
   }
   
   .tooltip-github {
@@ -83,6 +84,7 @@
     border: 2px solid black;
     top: 60%;
     left: 49%;
+    z-index: 5;
   }
   
   .tooltip-gmail {
@@ -147,6 +149,7 @@
     border: 2px solid black;
     top: 60%;
     left: 53%;
+    z-index: 5;
   }
   
   .tooltip-whatsapp {

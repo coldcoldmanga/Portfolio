@@ -13,14 +13,18 @@ const App = () => {
 
     return (
         <>
-        <Contact/>
+        
         <div className='container'>
 
+            
             <div className='button'>
                 <Button btn={"Profile"} setPage={setPage}/>
                 <Button btn={"Skill"} setPage={setPage}/>
-                <Button btn={"Project"} setPage={setPage}/>    
+                <Button btn={"Project"} setPage={setPage}/>
+                    
             </div>
+
+            <Contact/>
 
             <div className='content'>
                 {activePage === "Profile" && <Profile setPage={setPage}/>}
