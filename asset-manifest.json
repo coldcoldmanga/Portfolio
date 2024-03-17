@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.cbb958bf.css",
+    "main.js": "/Portfolio/static/js/main.898b6b30.js",
+    "static/media/monitor.png": "/Portfolio/static/media/monitor.491fb0051300ac96765c.png",
+    "static/media/mac1.jpg": "/Portfolio/static/media/mac1.1c6a53c7c6be4bd6c55c.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.cbb958bf.css.map": "/Portfolio/static/css/main.cbb958bf.css.map",
+    "main.898b6b30.js.map": "/Portfolio/static/js/main.898b6b30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbb958bf.css",
+    "static/js/main.898b6b30.js"
+  ]
+}
